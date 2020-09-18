@@ -24,6 +24,11 @@ a{
 header a{
     color: #ffffff;
     font-style: normal;
+    font-weight: 400;
+}
+
+header{
+    font-weight: 400;
 }
 
 .main-navigation-first a{
@@ -96,6 +101,154 @@ header a{
 /* header header header hader */
 
 
+/* main main main main main */
+
+/* MINI-CATALOG MINI-CATALOG */
+
+.section-catalog span{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.section-catalog a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 135px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+
+.li-big .tech{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.li-big .else{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.li-big a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 195px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: #ee3643;
+    border-radius: 2px;
+}
+
+/* MINI-CATALOG MINI-CATALOG */
+
+
+
+
+/* POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION */
+
+.popular-container h3{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #32425c;
+}
+
+.popular-container a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 253px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: #ee3643;
+    border-radius: 2px;
+}
+
+.popular-products-ul p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.popular-products-ul .span-first{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #a9a9a9;
+
+    text-decoration: line-through;
+}
+
+.popular-products-ul .span-second{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+/* POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION */
+
+
+/* main main main main main */
+
+
+  
+
 /* fonts fonts fonts */
 
 
@@ -104,7 +257,12 @@ header a{
 
 /*  ВРЕМЕННЫЕ СТИЛИ  */
 
-header{
+header, main{
+    background-color: rgb(190, 143, 41);
+    padding: 20px;
+}
+
+.mini-catalog{
     background-color: rgb(190, 143, 41);
     padding: 20px;
 }
