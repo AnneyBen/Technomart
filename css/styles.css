@@ -259,7 +259,7 @@ header{
     font-family: 'Cuprum', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 24px;
     letter-spacing: 0;
     color: #000000;
 }
@@ -408,6 +408,161 @@ div.image + a{
 
 /* FOOTER FOOTER FOOTER FOOTER */
   
+
+
+
+/* catalog catalog catalog catalog catalog catalog */
+
+.breadcrumbs a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.breadcrumbs + h2{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #32425c;
+}
+
+/* filterArticle filterArticle filterArticle filterArticle */
+
+.divName h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+form legend{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.range input::placeholder{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+form label{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.filterArticle button{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 140px;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+
+    border-radius: 2px;
+    border: none;
+}
+
+/* filterArticle filterArticle filterArticle filterArticle */
+
+/* sortingName sortingName sortingName sortingName sortingName */
+
+.sortingUl1 a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 30%;
+}
+
+.sortingUl1 a.here{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ee3643;
+    opacity: 100%;
+}
+
+.icon-up polygon{
+    fill: #ee3643;
+}
+
+.icon-down{
+    opacity: 30%;
+}
+
+/* sortingName sortingName sortingName sortingName sortingName */
+
+.pagination button{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.pagination button:first-of-type{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.about-perfor h2{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #000000
+}
+
+.about-perfor p{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+
+
+/* catalog catalog catalog catalog catalog catalog */
 
 /* fonts fonts fonts */
 
