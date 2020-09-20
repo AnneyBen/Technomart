@@ -244,9 +244,169 @@ header{
 /* POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION */
 
 
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+
+.h3H{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.pP{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.services-delivery a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.services-delivery a.Here{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #32425c;
+}
+
+.delivery h2{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    letter-spacing: 0;
+    color: #32425c;
+}
+
+.logistic-list li{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #000000;
+} 
+
+.logistic-list + a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: #ee3643;
+    border-radius: 2px;
+}
+
+div.image + a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    /* EXEPTION  */
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: #ee3643;
+    border-radius: 2px;
+}
+
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+
 /* main main main main main */
 
+/* FOOTER FOOTER FOOTER FOOTER */
 
+.navigation-footer1 h1{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.navigation-footer1 a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.navigation-footer2 div{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.navigation-footer2 a{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffd180;
+}
+
+.company-data{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.direct{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.direct a{
+    color: #ffd180;
+}
+
+/* FOOTER FOOTER FOOTER FOOTER */
   
 
 /* fonts fonts fonts */
@@ -257,7 +417,7 @@ header{
 
 /*  ВРЕМЕННЫЕ СТИЛИ  */
 
-header, main{
+header, main, footer{
     background-color: rgb(190, 143, 41);
     padding: 20px;
 }
