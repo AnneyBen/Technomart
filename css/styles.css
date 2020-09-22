@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    outline: none;
 }
 
 li{
@@ -15,13 +16,14 @@ a{
 
 
 
-
 /* fonts fonts fonts */
 
 
 /* header header header hader */
 
-header a{
+header a,
+.main-navigation-first input,
+.main-navigation-first input::placeholder{
     color: #ffffff;
     font-style: normal;
     font-weight: 400;
@@ -31,7 +33,9 @@ header{
     font-weight: 400;
 }
 
-.main-navigation-first a{
+.main-navigation-first a,
+.main-navigation-first input,
+.main-navigation-first input::placeholder{
     font-family: 'Cuprum', sans-serif;
     font-size: 17px;
     line-height: 18px;
@@ -574,21 +578,41 @@ form label{
 
 /* buttons buttons buttons buttons buttons buttons */
 
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER */
+
+/* EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION */
 .main-navigation-first li,
-.main-navigation-first a{
+.main-navigation-first a,
+.main-navigation-first input{
     padding: 0;
     margin: 0;
 }
 
+.main-navigation-first{
+    width: 100%;
+    background-color: #293449;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
 .main-navigation-first ul{
     display: flex;
-    background-color: #293449;
     max-width: 940px;
     width: 100%;
     padding: 0;
     margin: 0;
+    margin: 0 auto;
     justify-content: space-between;
 }
+
+.main-navigation-first li{
+    flex: 1 1 auto;
+}
+
+/* EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION */
 
 .main-navigation-first li:first-child{
     max-width: 220px;
@@ -598,8 +622,8 @@ form label{
 .main-navigation-first .logoMain{
     display: block;
     background-color: #ee3643;
-    padding: 9px 55px;
-    padding-bottom: 5px;
+    padding: 10px 55px;
+    padding-bottom: 8px;
     max-width: 220px;
     width: 100%;
     position: relative;
@@ -622,38 +646,45 @@ form label{
     width: 100%; 
 }
 
-.main-navigation-first ul  li:nth-child(2) a{
+.main-navigation-first ul  li:nth-child(2) input{
+    padding: 0;
     display: block;
     max-width: 270px;
-    padding: 10px 0px;
     width: 100%; 
-    background-color: #555555;
+    padding-top: 12px;
+    padding-left: 48px;
+    padding-bottom: 12px;
+    background-color: transparent;
 }
 
 .main-navigation-first li:nth-child(3){   
-    max-width: 140px;
+    max-width: 150px;
     width: 100%;
 }
 
 .main-navigation-first li:nth-child(3) a{
-    padding: 10px 0px;
     display: block;   
-    max-width: 140px;
-    background-color: #555555;
+    max-width: 150px;
     width: 100%;
+    padding-top: 12px;
+    padding-left: 45px;
+    padding-bottom: 12px;
+    padding-right: 10px;
 }
 
-.main-navigation-first li:nth-child(5){   
-    max-width: 160px;
+.main-navigation-first li:nth-child(4){   
+    max-width: 150px;
+    min-width: 125px;
     width: 100%;
 }
 
 .main-navigation-first li:nth-child(4) a{
-    padding: 10px 0px;
     display: block;   
-    max-width: 160px;
-    background-color: #555555;
+    max-width: 150px;
     width: 100%;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-bottom: 12px;
 }
 
 .main-navigation-first li:nth-child(5){   
@@ -662,13 +693,149 @@ form label{
 }
 
 .main-navigation-first li:nth-child(5) a{
-    padding: 10px 0px;
     display: block;   
     max-width: 150px;
-    background-color: #555555;
     width: 100%;
+    padding-top: 12px;
+    padding-left: 21px;
+    padding-bottom: 12px;
+    background-color: #63a63e;
 }
 
+
+
+
+
+
+.main-navigation-first ul input{
+    border: none;
+}
+
+.main-navigation-first ul a:hover,
+.main-navigation-first ul li input:hover{
+    background-color: #212a3a;
+}
+
+.main-navigation-first li:nth-child(5) a:hover{
+    background-color: #5fbb2d;
+}
+
+.main-navigation-first .logoMain:hover{
+    background-color: #ca2c37;
+}
+
+.main-navigation-first .logoMain:hover::after{
+    background-color: #9a212a;
+}
+
+.main-navigation-first ul a:active,
+.main-navigation-first ul a:focus{
+    background-color: #161d29;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.main-navigation-first ul li input:active,
+.main-navigation-first ul li input:focus{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.main-navigation-first ul li input:active::placeholder,
+.main-navigation-first ul li input:focus::placeholder{
+    color: #000000;
+}
+
+.main-navigation-first li:nth-child(5) a:active,
+.main-navigation-first li:nth-child(5) a:focus{
+    background-color: #518534;
+}
+
+.main-navigation-first .logoMain:active,
+.main-navigation-first .logoMain:focus{
+    background-color: #ba2732;
+}
+
+.main-navigation-first .logoMain:active::after,
+.main-navigation-first .logoMain:focus::after{
+    background-color: #8e1e26;
+}
+
+
+
+
+.main-navigation-first a,
+.main-navigation-first input{
+    position: relative;
+}
+
+
+.main-navigation-first ul li:nth-child(2) input{
+    background-image: url(/img/icon-search-1.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(3) a{
+    background-image: url(/img/icon-bookmark-1.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(4) a{
+    background-image: url(/img/cart-icon-1.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 19px 12px;
+}
+
+.main-navigation-first ul li:nth-child(2) input:hover{
+    background-image: url(/img/icon-search-2.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(3) a:hover{
+    background-image: url(/img/icon-bookmark-2.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(4) a:hover{
+    background-image: url(/img/cart-icon-2.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 19px 12px;
+}
+
+.main-navigation-first ul li:nth-child(2) input:focus,
+.main-navigation-first ul li:nth-child(2) input:active{
+    background-image: url(/img/icon-search-3.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(3) a:focus,
+.main-navigation-first ul li:nth-child(3) a:active{
+    background-image: url(/img/icon-bookmark-3.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 17px 12px;
+}
+
+.main-navigation-first ul li:nth-child(4) a:focus,
+.main-navigation-first ul li:nth-child(4) a:active{
+    background-image: url(/img/cart-icon-3.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    background-position: 19px 12px;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER */
 
 /* buttons buttons buttons buttons buttons buttons */
 
