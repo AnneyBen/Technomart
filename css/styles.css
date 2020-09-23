@@ -614,6 +614,8 @@ form label{
 
 /* EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION */
 
+/* main-navigation-first main-navigation-first main-navigation-first main-navigation-first */
+
 .main-navigation-first li:first-child{
     max-width: 220px;
     width: 100%;
@@ -770,42 +772,42 @@ form label{
 
 
 .main-navigation-first ul li:nth-child(2) input{
-    background-image: url(/img/icon-search-1.png);
+    background-image: url(../img/icon-search-1.png);
     background-size: 17px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
 }
 
 .main-navigation-first ul li:nth-child(3) a{
-    background-image: url(/img/icon-bookmark-1.png);
+    background-image: url(../img/icon-bookmark-1.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
 }
 
 .main-navigation-first ul li:nth-child(4) a{
-    background-image: url(/img/cart-icon-1.png);
+    background-image: url(../img/cart-icon-1.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 19px 12px;
 }
 
 .main-navigation-first ul li:nth-child(2) input:hover{
-    background-image: url(/img/icon-search-2.png);
+    background-image: url(../img/icon-search-2.png);
     background-size: 17px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
 }
 
 .main-navigation-first ul li:nth-child(3) a:hover{
-    background-image: url(/img/icon-bookmark-2.png);
+    background-image: url(../img/icon-bookmark-2.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
 }
 
 .main-navigation-first ul li:nth-child(4) a:hover{
-    background-image: url(/img/cart-icon-2.png);
+    background-image: url(../img/cart-icon-2.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 19px 12px;
@@ -813,7 +815,7 @@ form label{
 
 .main-navigation-first ul li:nth-child(2) input:focus,
 .main-navigation-first ul li:nth-child(2) input:active{
-    background-image: url(/img/icon-search-3.png);
+    background-image: url(../img/icon-search-3.png);
     background-size: 17px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
@@ -821,7 +823,7 @@ form label{
 
 .main-navigation-first ul li:nth-child(3) a:focus,
 .main-navigation-first ul li:nth-child(3) a:active{
-    background-image: url(/img/icon-bookmark-3.png);
+    background-image: url(../img/icon-bookmark-3.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 17px 12px;
@@ -829,13 +831,329 @@ form label{
 
 .main-navigation-first ul li:nth-child(4) a:focus,
 .main-navigation-first ul li:nth-child(4) a:active{
-    background-image: url(/img/cart-icon-3.png);
+    background-image: url(../img/cart-icon-3.png);
     background-size: 14px 16px;
     background-repeat: no-repeat;
     background-position: 19px 12px;
 }
 
+/* main-navigation-first main-navigation-first main-navigation-first main-navigation-first */
+
+/* main-navigation-second main-navigation-second main-navigation-second main-navigation-second */
+
+
+.main-navigation-second .phone{
+    max-width: 270px;
+    width: 100%;
+    border: 3px solid #ffffff;
+    position: relative;
+    padding: 10px 0px 8px 70px;
+}
+
+.main-navigation-second .phone::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/icon-phone.svg);
+    background-size: 19px;
+    width: 19px;
+    height: 19px;
+    left: 12px;
+}
+
+.main-navigation-second .indexPage{
+    max-width: 281px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navigation-second .aenter{
+    max-width: 121px;
+    width: 100%;
+    color: #000000;
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 47px;
+
+    position: relative;
+}
+
+.main-navigation-second .alogin{
+    max-width: 150px;
+    width: 100%;
+    color: #000000;
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+
+    position: relative;
+}
+
+.indexPage a:hover{
+    color: #ee3643;
+}
+
+.indexPage a:active,
+.indexPage a:focus{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation-second .aenter::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-login-1.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    left: 14px;
+}
+
+.main-navigation-second .aenter:hover::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-login-2.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    left: 14px;
+}
+
+.main-navigation-second .aenter:active::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-login-1.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    left: 14px;
+}
+
+
+.main-navigation-second .catalogPage{
+    max-width: 299px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-navigation-second .auser{
+    max-width: 299px;
+    width: 100%;
+    color: #000000;
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 47px;
+
+    position: relative;
+}
+
+.main-navigation-second .auser::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-user-1.png);
+    background-size: 20px 18px;
+    width: 20px;
+    height: 18px;
+    left: 14px;
+}
+
+.main-navigation-second .auser:hover::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-user-2.png);
+    background-size: 20px 18px;
+    width: 20px;
+    height: 18px;
+    left: 14px;
+}
+
+.main-navigation-second .auser:active::before{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-user-1.png);
+    background-size: 20px 18px;
+    width: 20px;
+    height: 18px;
+    left: 14px;
+}
+
+.main-navigation-second .auser::after{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-logout-1.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    right: 9px;
+    top: 14px;
+}
+
+.main-navigation-second .auser:hover::after{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-logout-2.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    right: 9px;
+    top: 14px;
+}
+
+.main-navigation-second .auser:active::after{
+    content: "";
+    position: absolute;
+
+    background-image: url(../img/icon-logout-1.png);
+    background-size: 20px 17px;
+    width: 20px;
+    height: 17px;
+    right: 9px;
+    top: 14px;
+}
+
+
+.main-navigation-second .auser:active,
+.main-navigation-second .auser:focus{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation-second .addres:hover{
+    color: #ee3643;
+}
+
+.main-navigation-second .addres:active,
+.main-navigation-second .addres:focus{
+    opacity: 30%;
+}
+
+.main-navigation-second .my{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 7px;
+    margin-left: 19px;
+}
+
+.main-navigation-second .my a{
+    position: relative;
+}
+
+.main-navigation-second .my a::before{
+    content: "";
+    position: absolute;
+    background-color: #49586f;
+    background-size: auto 1px;
+    width: 100%;
+    height: 1px;
+    bottom: 1px;
+}
+
+.main-navigation-second .my a:first-child{
+    margin-right: 32px;
+    position: relative;
+}
+
+.main-navigation-second .my a:first-child::after{
+    content: "";
+    position: absolute;
+    background-image: url(../img/dot.png);
+    background-size: 4px 5px;
+    width: 4px;
+    height: 5px;
+    top: 7px;
+    right: -17px;
+}
+
+.main-navigation-second .my a:hover{
+    color: #ee3643;
+}
+
+.main-navigation-second .my a:hover::before{
+    background-color: #ee3643;
+}
+
+.main-navigation-second .my a:focus,
+.main-navigation-second .my a:active{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation-second .my a:focus::before,
+.main-navigation-second .my a:active::before{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* main-navigation-second main-navigation-second main-navigation-second main-navigation-second */
+
+/* main-navigation-third main-navigation-third main-navigation-third main-navigation-third */
+
+/* EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION */
+
+.main-navigation-third ul{
+    display: flex;
+    max-width: 940px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation-third li{
+    padding: 0;
+    margin: 0;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-navigation-third a{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #32425c;
+    border-bottom: 5px solid #293449;
+    padding: 19px 0;
+}
+
+.main-navigation-third li:first-child a{
+    padding-left: 20px;
+}
+
+.main-navigation-third li:last-child a{
+    padding-right: 22px;
+}
+/* EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION EXCEPTION */
+
+.main-navigation-third a:hover{
+    background-color: #293449;
+}
+
+.main-navigation-third a:focus,
+.main-navigation-third a:active{
+    background-color: #1d2739;
+    border-bottom: 5px solid #1d2739;
+}
+
+/* main-navigation-third main-navigation-third main-navigation-third main-navigation-third */
+
 /* HEADER HEADER HEADER HEADER HEADER HEADER */
+
+
+
 
 /* buttons buttons buttons buttons buttons buttons */
 
