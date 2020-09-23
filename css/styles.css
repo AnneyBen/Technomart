@@ -352,7 +352,7 @@ div.image + a{
 
 /* FOOTER FOOTER FOOTER FOOTER */
 
-.navigation-footer1 h1{
+.navigation-footer1 .footerLogo{
     font-family: 'Cuprum', sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -1155,13 +1155,117 @@ form label{
 
 
 
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 */
+
+footer .footerLogo{
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    background-color: #ee3643;
+    border-bottom: 5px solid #b52933;
+}
+
+.navigation-footer1UL a{
+    position: relative;
+}
+
+.navigation-footer1UL a:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    background-size: 100% 1px;
+    width: 100%;
+    height: 1px;
+    bottom: 2px;
+    left: 0;
+}
+
+.navigation-footer1UL a:focus,
+.navigation-footer1UL a:active{
+    opacity: 50%;
+    position: static;
+}
+
+.navigation-footer2UL a{
+    position: relative;
+}
+
+.navigation-footer2UL a:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #ffd180;
+    background-size: 100% 1px;
+    width: 100%;
+    height: 1px;
+    bottom: 2px;
+    left: 0;
+}
+
+.navigation-footer2 UL a:focus,
+.navigation-footer2UL a:active{
+    opacity: 50%;
+    position: static;
+}
+
+
+/* footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 */
+
+/* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
+
+.network-container a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #212a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network-container a:hover,
+.network-container a:active,
+.network-container a:focus{
+    background-color: #ee3643;
+}
+
+
+.direct a{
+    position: relative;
+}
+
+.direct a:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #ffd180;
+    background-size: 100% 1px;
+    width: 100%;
+    height: 1px;
+    bottom: 1px;
+    left: 0;
+}
+
+.direct a:focus,
+.direct a:active{
+    position: static;
+    color: #ee3643;
+}
+/* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
 /* buttons buttons buttons buttons buttons buttons */
 
 
 
 /*  ВРЕМЕННЫЕ СТИЛИ  */
 
-header, main, footer{
+header, main{
     background-color: rgb(190, 143, 41);
     padding: 20px;
 }
@@ -1171,6 +1275,18 @@ header, main, footer{
     padding: 20px;
 }
 
+.footerWrapper1{
+    background-color: #32425c;
+    padding: 50px;
+}
+
+.footerWrapper2{
+    background-color: #293449;
+}
+
+.network-container a{
+    margin: 20px;
+}
 
 
 
