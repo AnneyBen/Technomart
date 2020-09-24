@@ -298,8 +298,8 @@ header{
 .logistic-list li{
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0;
     color: #000000;
 } 
@@ -504,8 +504,7 @@ form label{
     font-size: 13px;
     line-height: 18px;
     letter-spacing: 0;
-    color: #000000;
-    opacity: 30%;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .sortingUl1 a.here{
@@ -596,6 +595,7 @@ form label{
     right: 0;
     left: 0;
     top: 0;
+    z-index: 100;
 }
 
 .main-navigation-first ul{
@@ -1151,10 +1151,171 @@ form label{
 /* main-navigation-third main-navigation-third main-navigation-third main-navigation-third */
 
 /* HEADER HEADER HEADER HEADER HEADER HEADER */
+/*/
+/
+/
+/
+/
+/*/
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+
+/* MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG */
+
+.section-catalog a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section-catalog a:focus,
+.section-catalog a:active{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mini-catalog li:nth-child(1){
+    background-color: #ffbf47;
+}
+
+.mini-catalog li:nth-child(2){
+    background-color: #3bbce3;
+}
+
+.mini-catalog li:nth-child(3){
+    background-color: #dc91d8;
+}
+
+.mini-catalog li:nth-child(5){
+    background-color: #8ed78f;
+}
+
+.mini-catalog li:nth-child(6){
+    background-color: #ffc047;
+}
+
+.button-list button{
+    border: none;
+    background-color: transparent;
+}
+
+.red-button:hover{
+    background-color: #ca2c37;
+}
+
+.red-button:focus,
+.red-button:active{
+    background-color: #ba2732;
+}
 
 
+/* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */
+.popular-products-ul a{
+    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.3);
+}
+/* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */ 
+
+/* services-delivery services-delivery services-delivery services-delivery */
+
+.services-delivery-ul{
+    padding: 0;
+    margin: 0;
+    max-width: 240px;
+    width: 100%;
+    position: relative;
+}
+
+.services-delivery-ul li{
+    padding: 0;
+    margin: 0;
+    max-width: 240px;
+    width: 100%;
+}
+
+.services-delivery-ul::after{
+    content: "";
+    position: absolute;
+    background-image: url(../img/shadow-ul.png);
+    background-size: 10px 279px;
+    width: 10px;
+    height: 279px;
+    right: 0;
+    top: -40px;
+}
 
 
+.services-delivery-ul a{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    background-color: #32425c;
+    border-bottom: 1px solid #293449;
+    border-top: 1px solid #405069;
+    padding-top: 16px;
+    padding-left: 22px;
+    padding-bottom: 14px;
+}
+
+.services-delivery-ul a.Here{
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+.services-delivery-ul a:hover{
+    background-color: #293449;
+}
+
+.services-delivery-ul a.Here:hover{
+    border-bottom: 1px solid #293449;
+    border-top: 1px solid #405069;
+    background-color: #32425c;
+    color: #ffffff;
+}
+
+.services-delivery-ul a:focus,
+.services-delivery-ul a:active{
+    background-color: #ffffff;
+    color: #32425c;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+/* services-delivery services-delivery services-delivery services-delivery */
+
+/* detailed detailed detailed detailed detailed detailed detailed */
+
+.logistic-list{
+    padding: 0;
+    margin: 0;
+}
+
+.logistic-list li{
+    padding: 0;
+    margin: 0;
+    padding-left: 36px;
+    position: relative;
+}
+
+.logistic-list li:before{
+    content: "";
+    position: absolute;
+    background-color: #ee3643;
+    background-size: 25px 2px;
+    width: 25px;
+    height: 2px;
+    left: 0;
+    top: 10px;
+}
+
+/* detailed detailed detailed detailed detailed detailed detailed */
+
+/* MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG */
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+/*/
+/
+/
+/
+/
+/*/
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
 /* footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 */
@@ -1258,6 +1419,121 @@ footer .footerLogo{
 /* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
 
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+
+/* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
+
+/* BREADCRUMBS BREADCRUMBS BREADCRUMBS BREADCRUMBS */
+
+.breadcrumbs{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.breadcrumbs a{
+    position: relative;
+}
+
+.breadcrumbs a::after{
+    content: "";
+    position: absolute;
+    background-image: url(../img/icon-right-small.svg);
+    background-size: 8px 12px;
+    width: 8px;
+    height: 12px;
+    right: -24px;
+    top: 2px;
+}
+
+.breadcrumbs li:last-of-type a::after{
+    position: static;
+}
+
+/* BREADCRUMBS BREADCRUMBS BREADCRUMBS BREADCRUMBS */
+
+/* sorting sorting sorting sorting sorting sorting */
+
+.sortingUl1{
+    padding: 0;
+    margin: 0;
+    max-width: 355px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.sortingUl1 a{
+    position: relative;
+    display: block;
+}
+
+.sortingUl1 a::after{
+    content: "";
+    position: absolute;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat-x;
+    background-size: auto 1px;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    bottom: 0px;
+}
+
+.sortingUl1 a.here::after{
+    position: static;
+}
+
+.sortingUl1 a:hover{
+    color: #000;
+}
+
+.sortingUl1 a:hover::after{
+    content: "";
+    position: absolute;
+    background-color: #ee3643;
+    background-repeat: repeat-x;
+    background-size: auto 1px;
+    width: 100%;
+    height: 1px;
+    right: 0;
+    bottom: 0px;
+}
+
+.sortingUl1 a:focus,
+.sortingUl1 a:active{
+    color: #ee3643;
+    position: static;
+}
+
+
+.sortingUl2 a:hover polygon{
+    fill: #000000;
+}
+
+.sortingUl2 a:hover .icon-down,
+.sortingUl2 a:focus .icon-down,
+.sortingUl2 a:active .icon-down{
+    opacity: 100%;
+}
+
+.sortingUl2 a:focus polygon,
+.sortingUl2 a:active polygon{
+    fill: #ee3643;
+}
+
+
+/* sorting sorting sorting sorting sorting sorting */
+
+/* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
 
 /* buttons buttons buttons buttons buttons buttons */
 
