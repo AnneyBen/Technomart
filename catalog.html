@@ -78,7 +78,9 @@
                 <form action="get">
                     <fieldset class="value">
                         <legend>ЦЕНА:</legend>
-                        <input type="range" class="value-range" min="0" max="30000" value="25000">
+                        <div class="range-wrapper">
+                            <input type="range" class="value-range" min="0" max="30000" value="25000">
+                        </div>
                         <div class="range">
                             <input type="number" class="value-number1" min="0" max="30000" placeholder="0">
                             <input type="number" class="value-number2" min="0" max="30000" placeholder="30000">
@@ -122,8 +124,8 @@
                             </p>
                         </div>
                     </fieldset>
+                    <button type="submit" class="show">ПОКАЗАТЬ</button>
                 </form>
-                <button class="show">ПОКАЗАТЬ</button>
             </article>
 
             <article class="productsArticle">
@@ -132,7 +134,7 @@
                     <ul class="sortingUl1">
                         <li><a href="#" class="here">ПО ЦЕНЕ</a></li>
                         <li><a href="#">ПО ТИПУ</a></li>
-                        <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+                        <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li> 
                     </ul>
                     <ul class="sortingUl2">
                         <li><a href="#">

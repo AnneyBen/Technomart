@@ -464,6 +464,15 @@ form legend{
     color: #000000;
 }
 
+.range input{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
 form label{
     font-family: 'Cuprum', sans-serif;
     font-weight: 400;
@@ -483,15 +492,7 @@ form label{
     text-transform: uppercase;
 
     /* EXEPTION  */
-    display: block;
-    max-width: 140px;
-    width: 100%;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    text-align: center;
-
-    border-radius: 2px;
-    border: none;
+    
 }
 
 /* filterArticle filterArticle filterArticle filterArticle */
@@ -1471,7 +1472,7 @@ footer .footerLogo{
 
 
 
-.sortingUl1 a{
+.sortingUl1 li a{
     position: relative;
     display: block;
 }
@@ -1514,6 +1515,11 @@ footer .footerLogo{
     position: static;
 }
 
+.sortingUl1 a:focus::after,
+.sortingUl1 a:active::after{
+    position: static;
+}
+
 
 .sortingUl2 a:hover polygon{
     fill: #000000;
@@ -1532,6 +1538,272 @@ footer .footerLogo{
 
 
 /* sorting sorting sorting sorting sorting sorting */
+
+
+/* FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM */
+
+form fieldset{
+    border: none;
+}
+
+
+
+form .range-wrapper{
+    max-width: 220px;
+    width: 100%;
+    background-color: #f7f3ec;
+    
+    text-align: center;
+    padding: 30px 0;
+}
+
+form .range{
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input[type="number"]{
+    border: none;
+    background-color: #f7f3ec;
+    max-width: 95px;
+    width: 100%;
+    display: block;
+    padding: 9px 0;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 9px;
+    position: relative;
+}
+
+div.range{
+    position: relative;
+}
+
+div.range::after{
+    content: "";
+    position: absolute;
+    background-color: #444444;
+    background-size: 10px 1px;
+    width: 10px;
+    height: 1px;
+    left: 105px;
+    bottom: 17px;
+}
+
+
+
+
+.manufacturers-checkbox{
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+}
+
+label{
+    position: relative;
+    padding-left: 35px;
+}
+
+input[type="checkbox"] + label::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/checkbox-off.svg);
+    background-size: 23px 23px;
+    width: 23px;
+    height: 23px;
+    left: 0;
+    opacity: 50%;
+}
+
+input[type="checkbox"]:checked + label::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/checkbox-on.svg);
+    background-size: 27px 23px;
+    width: 27px;
+    height: 23px;
+    left: 0;
+    opacity: 50%;
+}
+
+input[type="checkbox"]:hover + label::before,
+input[type="checkbox"]:checked:hover + label::before{
+    opacity: 70%;
+}
+
+
+input[type="checkbox"]:active + label::before,
+input[type="checkbox"]:checked:active + label::before,
+input[type="checkbox"]:focus + label::before,
+input[type="checkbox"]:checked:focus + label::before{
+    opacity: 30%;
+}
+
+.supply-radio{
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+}
+
+input[type="radio"] + label::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/radio-off.svg);
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    opacity: 50%;
+}
+
+input[type="radio"]:checked + label::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/radio-on.svg);
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    opacity: 50%;
+}
+
+input[type="radio"]:hover + label::before,
+input[type="radio"]:checked:hover + label::before{
+    opacity: 70%;
+}
+
+
+input[type="radio"]:active + label::before,
+input[type="radio"]:checked:active + label::before,
+input[type="radio"]:focus + label::before,
+input[type="radio"]:checked:focus + label::before{
+    opacity: 30%;
+}
+
+
+.filterArticle button{
+    display: block;
+    background-color: transparent;  
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    display: block;
+    max-width: 140px;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+
+    border-radius: 2px;
+}
+
+.filterArticle button:hover{
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.filterArticle button:active,
+.filterArticle button:focus{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+legend{
+    border-top: 1px solid #e5e5e5;
+    padding: 0;
+    margin: 0;
+    padding-top: 18px;
+
+    max-width: 220px;
+    width: 100%;
+}
+
+.value legend{
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.value .range{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.manufacturers legend{
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+.manufacturers div{
+    margin-top: 0;
+    margin-bottom: -5px; 
+}
+
+.supply legend{  
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+.supply{
+    margin-bottom: 50px;
+}
+
+form button{
+    margin-left: 13px;
+}
+
+
+
+
+
+form{
+    background-color: #ffffff;
+}
+
+
+
+
+.pagination div{
+    max-width: 284px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination button{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 38px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 2px;
+}
+
+.pagination button:last-child{
+    max-width: 140px;
+}
+
+.pagination button:first-child{
+    background-color: #ee3643;
+}
+
+.pagination button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.pagination button:active,
+.pagination button:focus{
+    border: 1px solid #ee3643;
+}
+
+/* FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM FORM */
 
 /* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
 
