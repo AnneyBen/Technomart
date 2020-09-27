@@ -1,0 +1,241 @@
+
+header{
+    background-color: #f3f7f9;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+
+.main-navigation-second{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 68px;
+}
+
+.main-navigation-second ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-navigation-second li{
+    flex: 1 1 auto;
+}
+
+.main-navigation-second li:first-child{
+    max-width: 200px;
+    width: 100%;
+    margin-left: 52px;
+    padding-top: 5px;
+}
+
+.main-navigation-second li:nth-child(2){
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-navigation-second li:nth-child(3){
+    max-width: 282px;
+    width: 100%;
+}
+
+.main-navigation-second .addres{
+    margin-top: 5px;
+    align-self: center;
+}
+
+
+.main-navigation-third ul{
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.main-navigation-third{
+    margin: 0;
+    margin-bottom: 40px;
+}
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+
+/* MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG */
+
+.mini-catalog{
+    padding: 0;
+    margin: 0;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 59px;
+}
+
+
+.mini-catalog ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mini-catalog-ul-1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 620px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.mini-catalog-ul-2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.mini-catalog .section-catalog{
+    max-width: 300px;
+    width: 100%;
+    flex: 1 1 auto;
+    margin: 0;
+}
+
+.mini-catalog .section-1{
+    width: 100%;
+}
+
+.section-catalog{
+    padding-top: 21px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+}
+
+.section-catalog a{
+    display: block;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+.mini-catalog .li-big{
+    padding: 0;
+    margin: 0;
+    max-width: 620px;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.li-big .section-1-big{
+    padding-top: 23px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.25);
+}
+
+.section-1-big .else{
+    display: block;
+    margin-top: 2px;
+}
+
+.li-big .button-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 9px;
+    padding: 0 20px;
+}
+
+.button-list button:last-child{
+    padding: 0;
+    margin: 0;
+}
+
+.li-big a{
+    display: block;
+    margin-top: 47px;
+    margin-left: 26px;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.mini-catalog-ul-1 .section-catalog:first-child{
+    background-color: #ffbf47;
+    margin-bottom: 20px;
+}
+
+.mini-catalog-ul-1 .section-catalog:nth-child(2){
+    background-color: #3bbce3;
+    margin-bottom: 20px;
+}
+
+.mini-catalog-ul-1 .li-big{
+    background-image: url(../img/bosch-top-img.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -2px;
+    margin-bottom:-2px;
+}
+
+.mini-catalog-ul-2 .section-catalog:first-child{
+    background-color: #dc91d8;
+    margin-bottom: 20px;
+    
+    align-items: flex-end;
+}
+
+.mini-catalog-ul-2 .section-catalog:nth-child(2){
+    background-color: #8ed78f;
+    margin-bottom: 20px;
+    align-items: flex-end;
+}
+
+.mini-catalog-ul-2 .section-catalog:nth-child(3){
+    background-color: #ffc047;
+    align-items: flex-end;
+}
+
+
+/*
+.mini-catalog li:nth-child(1){
+    background-color: #ffbf47;
+}
+
+.mini-catalog li:nth-child(2){
+    background-color: #3bbce3;
+}
+
+.mini-catalog li:nth-child(3){
+    background-color: #dc91d8;
+}
+
+.mini-catalog li:nth-child(5){
+    background-color: #8ed78f;
+}
+
+.mini-catalog li:nth-child(6){
+    background-color: #ffc047;
+}
+
+
+
+/* MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG MINI-CATALOG */

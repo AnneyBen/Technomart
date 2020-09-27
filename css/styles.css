@@ -589,6 +589,12 @@ form label{
     margin: 0;
 }
 
+
+.main-navigation-first a,
+.main-navigation-first input{
+    height: 100%;
+}
+
 .main-navigation-first{
     width: 100%;
     background-color: #293449;
@@ -626,7 +632,7 @@ form label{
     display: block;
     background-color: #ee3643;
     padding: 10px 55px;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     max-width: 220px;
     width: 100%;
     position: relative;
@@ -651,12 +657,13 @@ form label{
 
 .main-navigation-first ul  li:nth-child(2) input{
     padding: 0;
+    margin: 0;
     display: block;
     max-width: 270px;
     width: 100%; 
     padding-top: 12px;
     padding-left: 48px;
-    padding-bottom: 12px;
+    padding-bottom: 11px;
     background-color: transparent;
 }
 
@@ -671,7 +678,7 @@ form label{
     width: 100%;
     padding-top: 12px;
     padding-left: 45px;
-    padding-bottom: 12px;
+    padding-bottom: 11px;
     padding-right: 10px;
 }
 
@@ -687,7 +694,7 @@ form label{
     width: 100%;
     padding-top: 12px;
     padding-left: 50px;
-    padding-bottom: 12px;
+    padding-bottom: 11px;
 }
 
 .main-navigation-first li:nth-child(5){   
@@ -701,9 +708,10 @@ form label{
     width: 100%;
     padding-top: 12px;
     padding-left: 21px;
-    padding-bottom: 12px;
+    padding-bottom: 11px;
     background-color: #63a63e;
 }
+
 
 
 
@@ -1127,7 +1135,8 @@ form label{
     width: 100%;
     background-color: #32425c;
     border-bottom: 5px solid #293449;
-    padding: 19px 0;
+    padding-top: 20px;
+    padding-bottom: 18px;
 }
 
 .main-navigation-third li:first-child a{
@@ -1171,25 +1180,7 @@ form label{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.mini-catalog li:nth-child(1){
-    background-color: #ffbf47;
-}
 
-.mini-catalog li:nth-child(2){
-    background-color: #3bbce3;
-}
-
-.mini-catalog li:nth-child(3){
-    background-color: #dc91d8;
-}
-
-.mini-catalog li:nth-child(5){
-    background-color: #8ed78f;
-}
-
-.mini-catalog li:nth-child(6){
-    background-color: #ffc047;
-}
 
 .button-list button{
     border: none;
@@ -1808,6 +1799,7 @@ form{
 /* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
 
 /* buttons buttons buttons buttons buttons buttons */
+
 
 
 
