@@ -1198,9 +1198,7 @@ form label{
 
 
 /* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */
-.popular-products-ul a{
-    box-shadow: 0 0px 20px 5px rgba(0, 0, 0, 0.3);
-}
+
 /* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */ 
 
 /* services-delivery services-delivery services-delivery services-delivery */
@@ -1810,10 +1808,7 @@ header, main{
     padding: 20px;
 }
 
-.mini-catalog{
-    background-color: rgb(190, 143, 41);
-    padding: 20px;
-}
+
 
 .footerWrapper1{
     background-color: #32425c;
