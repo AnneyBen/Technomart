@@ -1,6 +1,8 @@
 
+
 header{
     background-color: #f3f7f9;
+    padding: 20px;
 }
 
 main{
@@ -481,3 +483,280 @@ main{
 
 
 /* POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION */
+
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+
+.wrapperServices{
+    background-color: #f4f8f9;
+}
+
+.services-services{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.services h3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.services p{
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    margin-bottom: 69px;
+}
+
+.services-delivery ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+.services-delivery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-delivery p{
+    max-width: 275px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.services-delivery h2{
+    padding: 0;
+    margin: 0;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+.services-delivery .delivery{
+    margin-right: auto;
+    margin-left: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.services-delivery .imageWrapper{
+    position: relative;
+}
+
+.services-delivery img{
+    position: absolute;
+    right: 0;
+    top: 25px; 
+}
+
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+
+/* DETAILED DETAILED DETAILED DETAILED DETAILED DETAILED DETAILED */
+
+.detailed{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 87px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.company h3{
+    padding: 0;
+    margin: 0;
+}
+
+.company p{
+    max-width: 525px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.company p + p{
+    max-width: 390px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.company ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.logistic-list li{
+    margin-top: 19px;
+}
+
+.logistic-list li:first-child{
+    margin-top: 0px;
+}
+
+.company a{
+    display: block;
+    margin-top: 39px;
+}
+
+
+
+.articleContacts{
+    max-width: 300px;
+    width: 100%;
+}
+
+.articleContacts p{
+    max-width: 195px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 31px;
+}
+
+.articleContacts h3{
+    padding: 0;
+    margin: 0;
+}
+
+.articleContacts a{
+    margin-top: 38px;
+}
+
+
+/* DETAILED DETAILED DETAILED DETAILED DETAILED DETAILED DETAILED */
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 */
+
+.footerWrapper1{
+    background-color: #32425c;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 31px;
+}
+
+.footerWrapper1-inside{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation-footer1{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navigation-footer1UL{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 548px;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 38px;
+}
+
+.navigation-footer2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navigation-footer2UL{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 525px;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 28px;
+}
+
+.navigation-footer2 p{
+    margin-top: 28px;
+    margin-left: 3px;
+    max-width: 327px;
+}
+
+/* footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 footerWrapper1 */
+
+
+
+
+
+/* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
+
+.footerWrapper2{
+    padding: 0;
+    margin: 0;
+    background-color: #293449;
+
+    /*margin-top: -15px;*/
+
+}
+
+.navigation-footer3{
+    padding: 0;
+    margin: 0;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.company-data{
+    max-width: 230px;
+    width: 100%;
+}
+
+.network-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 131px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.footerWrapper2 .direct{
+    max-width: 327px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */

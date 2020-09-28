@@ -1197,9 +1197,6 @@ form label{
 }
 
 
-/* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */
-
-/* SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW SHADOW */ 
 
 /* services-delivery services-delivery services-delivery services-delivery */
 
@@ -1803,25 +1800,12 @@ form{
 
 /*  ВРЕМЕННЫЕ СТИЛИ  */
 
-header, main{
-    background-color: rgb(190, 143, 41);
-    padding: 20px;
-}
 
 
 
-.footerWrapper1{
-    background-color: #32425c;
-    padding: 50px;
-}
 
-.footerWrapper2{
-    background-color: #293449;
-}
 
-.network-container a{
-    margin: 20px;
-}
+
 
 
 
