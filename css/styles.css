@@ -426,7 +426,7 @@ div.image + a{
     color: #000000;
 }
 
-.breadcrumbs + h2{
+.mainh2{
     font-family: 'Cuprum', sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -1198,6 +1198,7 @@ form label{
 
 
 
+
 /* services-delivery services-delivery services-delivery services-delivery */
 
 .services-delivery-ul{
@@ -1530,6 +1531,11 @@ footer .footerLogo{
 
 form fieldset{
     border: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 
 
