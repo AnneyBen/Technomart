@@ -301,7 +301,7 @@ form button{
     margin-bottom: 20px;
 }
 
-.popular-products-ul li:last-child .span-first{
+.popular-products-ul li.third-child-li .span-first{
     visibility: hidden;
 }
 
@@ -346,9 +346,28 @@ form button{
 }
 
 
-
+.pagination{
+    margin-top: 53px;
+    margin-bottom: 59px;
+}
 
 /* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
+
+.about-perfor{
+    background-color: #f2f6f8;
+}
+
+.about-perfor article{
+    padding: 0;
+    margin: 0;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 29px;
+}
+
+
 
 /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
 
