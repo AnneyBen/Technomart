@@ -509,3 +509,139 @@ form button{
 /* footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 footerWrapper2 */
 
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */
+
+/* HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD */
+
+@media (max-width:880px){
+
+    head{
+        margin: 0;  
+    }
+
+    body{
+        padding: 0;
+    }
+
+    .main-navigation-first ul{
+        max-width: 490px;
+        flex-wrap: wrap;
+    }
+
+    .main-navigation-first .logoMain::after{
+        display: none;
+    }
+
+
+    .main-navigation-second ul{
+        max-width: 490px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .main-navigation-third ul{
+        max-width: 490px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .main-navigation-third ul li{
+        flex-basis: 100px;
+    }
+
+    .main-navigation-third ul li a{
+        width: 100%;
+    }
+
+    .main-navigation-third li:first-child a{
+        padding-left: 0px;
+    }
+    
+    .main-navigation-third li:last-child a{
+        padding-right: 0px;
+    }
+    
+    .main-navigation-second li:nth-of-type(1){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    .main-navigation-second li:nth-of-type(2){
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+}
+
+
+/* HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD */
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+@media (max-width:960px){
+
+    .footerWrapper1-inside,
+    .navigation-footer3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width:850px){
+
+    .navigation-footer1,
+    .navigation-footer2,
+    .navigation-footer3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation-footer1 .footerLogo,
+    .navigation-footer1 ul,
+    .navigation-footer2 div,
+    .navigation-footer2 ul,
+    .navigation-footer3 div,
+    .navigation-footer3 .network-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation-footer1 ul{
+
+    }
+
+
+    
+    .navigation-footer3 .network-container{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */   
