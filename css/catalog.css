@@ -141,11 +141,13 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .sortingName h4{
     padding: 0;
     margin: 0;
+    margin-right: 10px;
 }
 
 .sortingUl1{
@@ -157,6 +159,7 @@ main{
     justify-content: space-between;
     margin-left: auto;
     margin-right: 45px;
+    flex-wrap: wrap;
 }
 
 .sortingUl2{
@@ -178,9 +181,9 @@ main{
 form{
     padding: 0;
     margin: 0;
-    max-width: 220px;
-    width: 100%;
+    width: 220px;
     padding-top: 11px;
+    margin-right: 25px;
 }
 
 fieldset.value{
@@ -593,6 +596,64 @@ form button{
 
 
 /* HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD */
+
+/* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
+
+@media (max-width:960px){
+
+    .filterArticle{
+        margin-left: 10px;
+    }
+
+    .productsArticle{
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:950px){
+
+    .popular-products-ul{
+        max-width: 470px;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width:780px){
+    
+    .sortingUl1{
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width:780px){
+    
+    .sortingUl1{
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:970px){
+    
+    .about-perfor{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+
+/* CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG CATALOG */
+
+
+
+
+
+
 
 
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */

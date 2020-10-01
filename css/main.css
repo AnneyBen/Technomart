@@ -835,6 +835,21 @@ main{
     }
 }
 
+@media (max-width:510px){
+
+    .main-navigation-first ul{
+        flex-direction: column;
+    }
+
+    .main-navigation-first li,
+    .main-navigation-first a{
+        width: 100%;
+    }
+
+
+}
+
+
 
 /* HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD HEAD */
 
