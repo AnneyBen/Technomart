@@ -602,9 +602,6 @@ form button{
         position: static;
     }
 
-    .main-navigation-second{
-    }
-
     .main-navigation-first ul{
         flex-direction: column;
         width: 100%;

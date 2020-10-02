@@ -834,10 +834,6 @@ main{
         position: static;
     }
 
-    .main-navigation-second{
-        margin-top: 200px;
-    }
-
     .main-navigation-first ul{
         flex-direction: column;
         width: 100%;
