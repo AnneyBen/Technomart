@@ -830,6 +830,10 @@ main{
 
 @media (max-width:510px){
 
+    header{
+        padding: 0;
+    }
+
     .main-navigation-first{
         position: static;
     }
