@@ -785,13 +785,6 @@ main{
 
 @media (max-width:880px){
 
-    head{
-        margin: 0;  
-    }
-
-    body{
-        padding: 0;
-    }
 
     .main-navigation-first ul{
         max-width: 490px;
@@ -837,17 +830,35 @@ main{
 
 @media (max-width:510px){
 
+    .main-navigation-first{
+        position: static;
+    }
+
+    .main-navigation-second{
+        margin-top: 200px;
+    }
+
     .main-navigation-first ul{
         flex-direction: column;
+        width: 100%;
+        max-width: none;
+    }
+
+    .main-navigation-first li{
+        width: 100%;
     }
 
     .main-navigation-first li,
     .main-navigation-first a{
         width: 100%;
+        display: block;
+        max-width: none;
     }
 
 
 }
+
+
 
 
 
@@ -914,6 +925,30 @@ main{
 
 }
 
+@media (max-width:540px){
+    
+    .popular-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+@media (max-width:457px){
+
+    .popular-products-ul,
+    .popular-producers ul{
+        justify-content: center;
+    }
+
+
+}
+
+
+
 /* POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION POPULAR-SECTION */
 
 /* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
@@ -933,6 +968,25 @@ main{
     }
 
 }
+
+
+@media (max-width:540px){
+
+    .services-delivery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-delivery-ul{
+    }
+
+    .services-delivery .delivery{
+        margin-top: 50px;
+    }
+
+}
+
 
 /* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
 
@@ -1038,6 +1092,22 @@ main{
         margin-bottom: 20px;
     }
 
+
+}
+
+
+@media (max-width:540px){
+
+    .navigation-footer1UL,
+    .navigation-footer2UL{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation-footer1UL li,
+    .navigation-footer2UL li{
+        flex-basis: 100px;
+    }
 
 }
 
