@@ -837,7 +837,6 @@ main{
     .main-navigation-first ul{
         flex-direction: column;
         width: 100%;
-        max-width: none;
     }
 
     .main-navigation-first li{
@@ -848,7 +847,6 @@ main{
     .main-navigation-first a{
         width: 100%;
         display: block;
-        max-width: none;
     }
 
 
